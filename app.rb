@@ -14,7 +14,7 @@ class App < Sinatra::Base
     @pf = params["pf"]
     @sf = params["sf"]
     @center = params["c"]
-    # @team = ["#{@team_name}", "#{@coach}", "#{@pg}", "#{@sg}", "#{@pf}", "#{@sf}", "#{@center}"]
+  
     erb :team
   end
 
